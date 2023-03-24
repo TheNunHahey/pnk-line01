@@ -8,26 +8,42 @@
   padding: 10px 10px 10px 10px;
   background-color: #35405e;
   border-radius: 0px 0px 25px 25px;
-
 }
 .header_left_logo {
   display: inline-block;
   height: 80px;
   vertical-align: middle;
 }
-#header_logo {
-  height: 100%;
-}
 
 .hero-list {
   background-color: green;
   height: 100%;
-  overflow:auto
+  overflow: auto;
 }
 
-body{
+body {
   background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
+}
 
+@media only screen and (max-width: 1312x) {
+  .header_logo {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 1024x) {
+  .header_logo {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header_logo {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header_logo {
+    height: 100px;
+  }
 }
 
 /*
